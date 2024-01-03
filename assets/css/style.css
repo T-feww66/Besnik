@@ -14,6 +14,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+}
+
 /* COMMON */
 .content {
     width: 1110px;
@@ -50,13 +55,17 @@ li {
 /* hero */
 .fixed-header {
     background-color: #e6f0ff;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     padding-top: 38px;
+    position: sticky;
+    top: -26px;
+    z-index: 10000;
 }
 .hero-wrap {
     background-color: #e6f0ff;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh - 90px);
     position: relative;
 }
 nav {
@@ -197,20 +206,19 @@ nav .actions {
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
-    flex: 1;
 }
 
-.client .logos a{
+.client .logos a {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 90px;
     padding: 0 30px;
+    border-radius: 12px;
 }
 
 .client .logos .logo-item {
     object-fit: contain;
-    border-radius: 12px;
 }
 .client .logos a:hover {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
