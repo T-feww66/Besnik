@@ -65,6 +65,7 @@ li {
     background-color: #e6f0ff;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: calc(100vh - 90px);
     position: relative;
 }

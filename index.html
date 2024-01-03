@@ -6,6 +6,84 @@
         <title>F8 project 01</title>
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/font/stylesheet.css" />
+        <!-- favicon -->
+        <link
+            rel="apple-touch-icon"
+            sizes="57x57"
+            href="./assets/favicon/apple-icon-57x57.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="60x60"
+            href="./assets/favicon/apple-icon-60x60.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="72x72"
+            href="./assets/favicon/apple-icon-72x72.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="76x76"
+            href="./assets/favicon/apple-icon-76x76.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="114x114"
+            href="./assets/favicon/apple-icon-114x114.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="120x120"
+            href="./assets/favicon/apple-icon-120x120.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="144x144"
+            href="./assets/favicon/apple-icon-144x144.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="152x152"
+            href="./assets/favicon/apple-icon-152x152.png"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-icon-180x180.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="192x192"
+            href="./assets/favicon/android-icon-192x192.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="96x96"
+            href="./assets/favicon/favicon-96x96.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./assets/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="./assets/favicon/manifest.json" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta
+            name="msapplication-TileImage"
+            content="./assets/favicon/ms-icon-144x144.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
+        <!-- google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -15,34 +93,36 @@
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
     <body>
-        <main id="home">
-            <header class="fixed-header">
-                <div class="content">
-                    <nav>
-                        <!-- LOGO -->
-                        <div class="logo">
-                            <a href="#home"
-                                ><img src="./assets/img/Logo.png" alt="Besnik"
-                            /></a>
-                        </div>
-                        <!-- NAVIGATION -->
-                        <div class="navbar">
-                            <ul>
-                                <li class="active"><a href="#home">Home</a></li>
-                                <li><a href="#listed">Listed</a></li>
-                                <li><a href="#fratures">Fratures</a></li>
-                                <li><a href="#service">Service</a></li>
-                                <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div>
-                        <!-- LOGIN LOGOUT -->
-                        <div class="actions">
-                            <a href="#!" class="action-link">Sign in</a>
-                            <a href="#!" class="btn">Sign up</a>
-                        </div>
-                    </nav>
-                </div>
-            </header>
+        <header class="fixed-header">
+            <div class="content">
+                <nav>
+                    <!-- LOGO -->
+                    <div class="logo">
+                        <a href="#"
+                            ><img src="./assets/img/Logo.png" alt="Besnik"
+                        /></a>
+                    </div>
+                    <!-- NAVIGATION -->
+                    <div class="navbar">
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#listed">Listed</a></li>
+                            <li><a href="#fratures">Fratures</a></li>
+                            <li><a href="#service">Service</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- LOGIN LOGOUT -->
+                    <div class="actions">
+                        <a href="#!" class="action-link">Sign in</a>
+                        <a href="#!" class="btn">Sign up</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- hero -->
             <div class="hero-wrap">
                 <div class="content">
                     <div class="hero">
@@ -124,7 +204,7 @@
             </div>
 
             <!-- guides -->
-            <div class="guides">
+            <div class="guides" id="listed">
                 <div class="content">
                     <h2 class="title">How its works?</h2>
                     <p class="desc">
@@ -320,7 +400,7 @@
             </div>
 
             <!-- stats -->
-            <div class="stats" id="listed">
+            <div class="stats">
                 <div class="content">
                     <div class="row">
                         <div class="box-img">
@@ -510,86 +590,80 @@
                     </div>
                 </div>
             </div>
-
-            <!-- footer -->
-            <div class="footer" id="contact" >
-                <div class="content">
-                    <div class="row row-footer">
-                        <div class="info">
-                            <h3 class="title">Product</h3>
-                            <ul class="list">
-                                <li class="item">
-                                    <a href="#!">Listing</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Property</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Agents</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Blog</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="info">
-                            <h3 class="title">Resources</h3>
-                            <ul class="list">
-                                <li class="item">
-                                    <a href="#!">Our Homes</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Member Stories</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Video</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Free trial</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="info">
-                            <h3 class="title">Company</h3>
-                            <ul class="list">
-                                <li class="item">
-                                    <a href="#!">Patnerships</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Terms of use</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Privacy</a>
-                                </li>
-                                <li class="item">
-                                    <a href="#!">Sitemap</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="info">
-                            <h3 class="title">Get in touch</h3>
-                            <p class="desc">
-                                You’ll find your next home, in any style you
-                                prefer.
-                            </p>
-                            <div class="social">
-                                <a href="#!" class="social-link">
-                                    <img
-                                        src="./assets/img/social icon.png"
-                                        alt=""
-                                /></a>
-                            </div>
-                        </div>
+        </main>
+        <!-- footer -->
+        <div class="footer" id="contact">
+            <div class="content">
+                <div class="row row-footer">
+                    <div class="info">
+                        <h3 class="title">Product</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Listing</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Property</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Agents</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Blog</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="row row-bottom">
-                        <img src="./assets/img/Logo.png" alt="Besnik" />
+                    <div class="info">
+                        <h3 class="title">Resources</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Our Homes</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Member Stories</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Video</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Free trial</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li class="item">
+                                <a href="#!">Patnerships</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Terms of use</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Privacy</a>
+                            </li>
+                            <li class="item">
+                                <a href="#!">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h3 class="title">Get in touch</h3>
                         <p class="desc">
-                            Copyright 2020.com, All rights reserved.
+                            You’ll find your next home, in any style you prefer.
                         </p>
+                        <div class="social">
+                            <a href="#!" class="social-link">
+                                <img src="./assets/img/social icon.png" alt=""
+                            /></a>
+                        </div>
                     </div>
                 </div>
+                <div class="row row-bottom">
+                    <img src="./assets/img/Logo.png" alt="Besnik" />
+                    <p class="desc">Copyright 2020.com, All rights reserved.</p>
+                </div>
             </div>
-        </main>
+        </div>
         <script src="main.js"></script>
     </body>
 </html>
